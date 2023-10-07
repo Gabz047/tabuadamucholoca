@@ -5,8 +5,7 @@ function calcular() {
 
 
 for(let numero of num) {
-    resultado.push(`${numero} X ${valor}: ` + valor*numero);
-
+    resultado.push(`${valor} X ${numero} = ` + valor*numero);
 }
 
 document.getElementById("result").innerHTML = resultado.join(" <br> ");
